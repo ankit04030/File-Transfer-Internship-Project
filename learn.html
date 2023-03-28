@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>File Transfer</title>
+	<link rel="stylesheet" type="text/css" href="/file/learn.css">
+	<link rel="shortcut icon" href="/file/df.png">
+	<script src="/file/sg.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<nav>
+			<div class="logo">
+				<img src="file/df.png" alt="FT Logo">
+				<h2>File <span>Transfer</span></h2>
+			</div>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="#">About Me</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div class="cards">
+				<h2>How to Send and Recieve Files ?</h2>
+				<ol>
+					<li>
+						<h3>
+							<span class="items">1</span>
+							Select Files & Upload
+						</h3>
+						<p>Click on <strong>Send</strong> button, Select the files to Upload. After uploading files a encrypted code is genarated, which is one time use code to download.</p>
+							
+					</li>
+					<li>
+						<h3>
+							<span class="items">2</span>
+							Share The Encrypted Code
+						</h3>
+						<p>Share the encrypted code with whom you want to share these files.</p>
+					</li>
+					<li>
+						<h3>
+							<span class="items">3</span>
+							Download The Files
+						</h3>
+						<p>Click on <strong>Recieve </strong>button, paste the encrypted code and hit the download. </p>
+					</li>
+				</ol>
+			</div>
+		</main>
+	</div>
+
+	
+
+	<script>
+
+
+		$ = function (id) {
+			return document.getElementById(id);
+		}
+
+		var show = function (id) {
+			$(id).style.display = 'block';
+		}
+		var hide = function (id) {
+			$(id).style.display = 'none';
+		}
+	</script>
+
+</body>
+
+</html>
